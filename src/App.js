@@ -4,7 +4,7 @@ import About from "./components/pages/About";
 import Hacker from "./components/pages/Hacker";
 import Nav from "./components/navbar/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function App() {
   return (

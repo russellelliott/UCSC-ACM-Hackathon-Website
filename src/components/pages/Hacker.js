@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function Hacker() {
     useEffect(() => {
