@@ -1,10 +1,14 @@
 import React from "react";
 import "../../App.css";
+import { useState, useEffect } from "react";
 
 export default function Hacker() {
-  return (
-    <div>
-       Hacker Page
-    </div>
-  );
+    useEffect(() => {
+        document.title = "Hacker Page"
+    }, []);
+    return (
+        <div>
+        Hacker Page
+        </div>
+    );
 }

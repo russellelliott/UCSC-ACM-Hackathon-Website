@@ -1,6 +1,10 @@
 import React from "react";
 import "../../App.css";
+import { useState, useEffect } from "react";
 
 export default function About() {
-  return <div>About page</div>;
+    useEffect(() => {
+        document.title = "About Us"
+    }, []);
+    return <div>About page</div>;
 }

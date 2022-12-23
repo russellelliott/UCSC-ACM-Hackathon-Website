@@ -1,3 +1,24 @@
+/*
+CSS used from ACM site
+https://github.com/MiltonChung/UCSC-ACM-Website/blob/16d6f7384f42042ff1d8d1e309522b7909460c7b/src/styles/main.scss
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+/*Color Pallete and Font Families*/
+:root {
+  --acm-pink: #ea526f;
+  --acm-black: #070600;
+  --acm-white: #f7f7ff;
+  --acm-blue: #0093d0;
+  --acm-yellow: #ffbb43;
+  --acm-gray: #ececf6;
+  --acm-green: #89f688;
+  --acm-font: "Oswald", sans-serif;
+  --acm-secondary-font: "Lato", sans-serif;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +39,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #fff;
-  background: rgba(29, 161, 242, 1);
+  background: var(--acm-gray);
 }
 
 .App .navbar .nav-links {
@@ -30,6 +50,78 @@
 }
 
 .App .navbar .nav-links>a{
-  color: #fff;
   text-decoration: none;
+}
+
+.title{
+  text-align:center;
+  font-weight: 600;
+  font-size: 96px;
+  color: var(--acm-black);
+}
+.subtitle{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 1rem 0 2rem;
+  color: var(--acm-black);
+}
+.description{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: var(--acm-black);
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: var(--acm-font);
+}
+h2 {
+	font-size: 64px;
+	line-height: 45px;
+	font-weight: 600;
+}
+h3 {
+	font-size: 48px;
+	line-height: 35px;
+	font-weight: 600;
+}
+
+p,a,button,small {
+	font-family: var(--acm-secondary-font);
+}
+
+a {
+	color: var(--acm-blue);
+	transition: all 0.25s;
+}
+a:active {
+	color: var(--acm-black);
+}
+a:hover {
+	color: var(--acm-pink);
+}
+
+button,
+a.button {
+	width: fit-content;
+	border-radius: 50px;
+	outline: none;
+	border: none;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+}
+
+.bold {
+	font-weight: bold;
+}
+.font-blue {
+	color: var(--acm-blue);
+}
+.italicize {
+	font-style: italic;
 }
