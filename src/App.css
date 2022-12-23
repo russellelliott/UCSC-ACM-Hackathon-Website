@@ -59,6 +59,11 @@ https://github.com/MiltonChung/UCSC-ACM-Website/blob/16d6f7384f42042ff1d8d1e3095
   font-size: 96px;
   color: var(--acm-black);
 }
+@media only screen and (max-width: 500px) {
+  .title {
+    font-size:48px;
+ }
+}
 .subtitle{
   font-size: 20px;
   font-style: italic;
@@ -124,4 +129,139 @@ a.button {
 }
 .italicize {
 	font-style: italic;
+}
+
+/*Buttons*/
+a.join {
+	font-size: 33px;
+	font-weight: 400;
+	text-align: center;
+	padding: 1rem 4rem;
+	background: var(--acm-gray);
+	border: 5px var(--acm-gray solid);
+	box-shadow: 2px 4px 20px 0px rgba(80, 80, 80, 0.637);
+	margin-top: -2.5rem;
+	text-decoration: underline;
+	color: var(--acm-pink);
+	transition: all 0.5s;
+
+	@media only screen and (max-width: 768px) {
+		border: 5px var(--acm-gray) solid;
+		padding: 0.5rem 3rem;
+		font-size: 27px;
+		margin-top: -2rem;
+	}
+}
+a.join:hover {
+	background: var(--acm-pink);
+	color: var(--acm-gray);
+	border: 5px var(--acm-white) solid;
+}
+
+.apply{
+  width:80%;
+  height:100px;
+  padding-top:100px;
+  margin:auto;
+}
+
+.window-card {
+  width: 60vw;
+  min-height: 500px;
+  height: fit-content;
+  background: var(--acm-gray);
+  border-radius: 20px;
+  box-shadow: 2px 4px 7px 0px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin: 3rem 0;
+  z-index: 2;
+}
+.window-card-top-menu {
+  height: 65px;
+  background: var(--acm-black);
+  display: flex;
+  align-items: center;
+  padding-left: 1.2rem;
+}
+.window-card-texts {
+  padding: 1.5rem;
+}
+.window-card-texts-title {
+  margin-bottom: 1.5rem;
+  position: relative;
+  width: fit-content;
+  line-height: 50px;
+}
+.window-card-texts-title img {
+  position: absolute;
+  right: -20px;
+  bottom: -18px;
+}
+.window-card-texts-body {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.window-card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  height:100%; /*make it so the button padding doesn't cause the button to move*/
+}
+.window-card-button a {
+  background: var(--acm-white);
+  font-size: 33px;
+  font-weight: 400;
+  color: var(--acm-pink);
+  padding: 0.5rem 3rem;
+  border: 3px var(--acm-pink) solid;
+  transition: all 0.5s;
+  text-decoration: none;
+  box-shadow: 3px 3px 7px rgba(7, 6, 0, 0.25);
+}
+.window-card-button a:hover {
+  color: var(--acm-white);
+  background: var(--acm-pink);
+}
+@media only screen and (max-width: 768px) {
+  .window-card {
+    width: 88%;
+ }
+}
+@media only screen and (max-width: 500px) {
+  .window-card {
+    width: 93%;
+    min-height: fit-content;
+    height: fit-content;
+ }
+  .window-card-top-menu {
+    height: 40px;
+    padding-left: 1.4rem;
+ }
+  .window-card-texts {
+    padding: 1.5rem 1.1rem;
+ }
+  .window-card-texts-title {
+    font-size: 45px;
+    margin-bottom: 1rem;
+ }
+  .window-card-texts-title img {
+    right: 0px;
+ }
+  .window-card-texts-body {
+    font-size: 18px;
+    line-height: 28px;
+ }
+  .window-card-button {
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+ }
+  .window-card-button a {
+    font-size: 24px;
+    padding: 0.5rem 2rem;
+    border: 2px var(--acm-pink) solid;
+    transition: all 0.5s;
+ }
 }
