@@ -1,19 +1,9 @@
 import * as React from "react"
-//import "./index.scss"
+import "./ScheduleTable.css"
 import { ReactComponent as LeftArrow } from "../../../images/schedule/left-arrow.svg"
 import { ReactComponent as RightArrow } from "../../../images/schedule/right-arrow.svg"
 import { schedule } from "./ScheduleData"
 import { useState } from "react"
-
-
-
-/*export default function ScheduleTable() {
-    return(
-        <div>
-            
-        </div>
-    );
-}*/
 
 function ScheduleTable(){
     var date = new Date()
