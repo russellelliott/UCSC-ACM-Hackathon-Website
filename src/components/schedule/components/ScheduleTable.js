@@ -9,13 +9,11 @@ function ScheduleTable(){
     var date = new Date()
     var defaultPage = 0
 
+    //3 dates for the hackathon
     var day1 = new Date(2022, 0, 15);
     var day2 = new Date(2022, 0, 16);
     var day3 = new Date(2022, 0, 17)
 
-  // +new Date(2022, 0, 15) -> 1642233600000
-  // +new Date(2022, 0, 16) -> 1642320000000
-  // +new Date(2022, 0, 17) -> 1642406400000
   if (date >= day1 && date < day2) {
     // January 15, 2022
     defaultPage = 1
@@ -35,7 +33,6 @@ function ScheduleTable(){
   }
 
   const current = schedule[page]
-  //const current = ScheduleData[page]
 
   return (
     <div className='schedule-table'>
