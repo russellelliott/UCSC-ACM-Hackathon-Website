@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 
 import Schedule from "./components/schedule/Schedule"
+import Subscribe from "./components/Subscribe"
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ function Home() {
       <div className = "apply">
         <Button link = "" text = "Test button"/>
       </div>
+      <Subscribe/>
       <Schedule/>
     </div>
   );
