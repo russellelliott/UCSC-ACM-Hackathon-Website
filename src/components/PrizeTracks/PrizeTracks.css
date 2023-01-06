@@ -47,7 +47,8 @@
         align-items: center;
         /*position: relative;*/
         box-shadow: -4px 8px 4px rgba(20, 28, 94, 0.4);
-        padding-top:3vh;
+        padding:4.5vh;
+        padding-top:2vh;
         }
         .prizeTracks__images__container--hover {
           background-color: #162C7B;
