@@ -12,21 +12,25 @@ const Tracks = [
       <Newcomer className='prizeTracks--svg-shadow prizeTracks--track-img-dimensions' />,
       "Newcomer Award",
       0,
+      "Prize for first-time hackers",
     ],
     [
       <Distinction className='prizeTracks--svg-shadow prizeTracks--track-img-dimensions-justice' />,
       "Distinction Award",
       2,
+      "Prize for most innovative, useful solution",
     ],
     [
       <Community className='prizeTracks--svg-shadow prizeTracks--track-img-dimensions-education' />,
       "Best Community Solution",
       1,
+      "Prize for best project developed through Community Care Track",
     ],
     [
       <GlobalImpact className='prizeTracks--svg-shadow prizeTracks--track-img-dimensions' />,
       "Best Global Impact Solution",
       3,
+      "Prize for best project developed through World Vision Track",
     ],
   ]
 
@@ -47,6 +51,7 @@ export default function PrizeTracks() {
                 image={image[0]}
                 hoverText={image[1]}
                 key={image[2]}
+                info={image[3]}
                 />
             ))}
             </div>
