@@ -9,6 +9,7 @@ import { useEffect } from "react";
 
 import Schedule from "./components/schedule/Schedule"
 import Subscribe from "./components/Subscribe"
+import Info from "./components/Info"
 
 export default function App() {
   return (
@@ -37,9 +38,11 @@ function Home() {
 
       {/*Buttons for different applications*/}
       <div className = "apply">
-        <Button link = "" text = "Test button"/>
+        <Button link = "https://forms.gle/sq2G1Ga4pcDgrrAZ6" text = "Interest Form"/>
+        <Button link = "https://forms.gle/nbbgvBmab7yYpv6A6" text = "Mentor Application"/>
       </div>
       <Subscribe/>
+      <Info/>
       <Schedule/>
     </div>
   );
