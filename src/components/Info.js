@@ -2,9 +2,12 @@ import * as React from "react"
 import "./Info.css";
 import "../App.css";
 
+import PrizeTracks from "./PrizeTracks/PrizeTracks"
+
 export default function Info(){
     return(
       <div>
+        <PrizeTracks/>
         <div align="left">
                 <table>
                     <tbody>
