@@ -10,7 +10,7 @@
       display: flex;
       justify-content: center;
     }
-      .prizeTracks__container {
+      .prizeTracks__title__container {
         width: 524px;
         max-width: 90%;
         height: 106px;
@@ -20,7 +20,7 @@
         justify-content: center;
         align-items: center;
       }
-        .prizeTracks--header {
+        .prizeTracks__title__container--header {
           /*@include typography.title;*/
           font-size: 70px;
           text-shadow: 5px 0px #777CE7;
@@ -34,7 +34,7 @@
       max-width: 1600px;
       align-items: center;
         }
-        .prizeTracks__container {
+        .prizeTracks__images__container {
         margin: 40px 50px;
         width: 20vw;
         height: 20vw;
@@ -48,7 +48,7 @@
         position: relative;
         box-shadow: -4px 8px 4px rgba(20, 28, 94, 0.4); 
         }
-        .prizeTracks--hover {
+        .prizeTracks__images__container--hover {
           background-color: #162C7B;
           opacity: 0.76;
           color: white;
@@ -64,7 +64,7 @@
           font-style: italic;
           text-align: center;
         }
-        .prizeTracks--image {
+        .prizeTracks__images__container--image {
           text-align: center;
         }
     
