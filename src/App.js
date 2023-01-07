@@ -39,6 +39,9 @@ function Home() {
       {/*Buttons for different applications*/}
       <div className = "apply">
         <Button link = "https://forms.gle/sq2G1Ga4pcDgrrAZ6" text = "Interest Form"/>
+        {/*<Button link = "https://forms.gle/nbbgvBmab7yYpv6A6" text = "Mentor Application"/>*/}
+      </div>
+      <div className = "apply">
         <Button link = "https://forms.gle/nbbgvBmab7yYpv6A6" text = "Mentor Application"/>
       </div>
       <Subscribe/>
