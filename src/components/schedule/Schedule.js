@@ -6,7 +6,7 @@ import { schedule } from "./components/ScheduleData"
 export default function Schedule(){
     return(
       <div className='schedule-component'>
-        <div className='schedule-component__header'>Schedule</div>
+        <div className='schedule-component__header'><h2>Schedule</h2></div>
         <div className='schedule-component__container'>
           <ScheduleTable schedule={schedule} />
           <div className='schedule-component__footnote'>

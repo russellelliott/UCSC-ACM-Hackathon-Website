@@ -84,6 +84,7 @@ https://github.com/MiltonChung/UCSC-ACM-Website/blob/16d6f7384f42042ff1d8d1e3095
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: var(--acm-font);
+  padding:2vh;
 }
 h2 {
 	font-size: 64px;
@@ -264,4 +265,8 @@ a.join:hover {
     border: 2px var(--acm-pink) solid;
     transition: all 0.5s;
  }
+}
+
+.background{
+  background: linear-gradient(179.99deg, #DA9DE3 0%, #BEB5FE 45.9%, #B0D0FE 99.99%);
 }

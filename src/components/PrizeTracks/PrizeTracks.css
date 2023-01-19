@@ -1,5 +1,5 @@
 .prizeTracks {
-    background: linear-gradient(179.99deg, #DA9DE3 0%, #BEB5FE 45.9%, #B0D0FE 99.99%);
+    /*background: linear-gradient(179.99deg, #DA9DE3 0%, #BEB5FE 45.9%, #B0D0FE 99.99%);*/
     display: flex;
     margin-top: -1px;
     flex-direction: column;
@@ -48,7 +48,8 @@
         /*position: relative;*/
         box-shadow: -4px 8px 4px rgba(20, 28, 94, 0.4);
         padding:4.5vh;
-        padding-top:2vh;
+        /*padding-top:2.5vh;*/
+        padding-top:4vw;
         }
         .prizeTracks__images__container--hover {
           background-color: #162C7B;

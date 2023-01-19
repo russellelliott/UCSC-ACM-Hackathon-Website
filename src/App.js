@@ -31,10 +31,10 @@ function Home() {
     document.title = "UCSC ACM Hackathon"
   }, []);
   return(
-    <div>
+    <div className="background">
       <h1 className = "title">UCSC ACM Hackathon</h1>
       <p className = "subtitle">A hackathon brought to you by UCSC ACM.</p>
-      <p className = "description">Dummy text go here</p>
+      {/*<p className = "description">Dummy text go here</p>*/}
 
       {/*Buttons for different applications*/}
       <div className = "apply">
