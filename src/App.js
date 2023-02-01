@@ -7,7 +7,7 @@ import Button from "./components/Button"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 
-import Schedule from "./components/schedule/Schedule"
+//import Schedule from "./components/schedule/Schedule"
 import Subscribe from "./components/Subscribe"
 import Info from "./components/Info"
 
@@ -46,7 +46,7 @@ function Home() {
       </div>
       <Subscribe/>
       <Info/>
-      <Schedule/>
+      {/*<Schedule/>*/}
     </div>
   );
 }
