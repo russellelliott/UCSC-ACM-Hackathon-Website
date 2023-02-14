@@ -1,7 +1,9 @@
 import { ArrowButton } from "@/components/Button";
 import { Criteria } from "@/components/Criteria";
+import { Footer } from "@/components/Footer";
 import { Info } from "@/components/Info";
 import { Nav } from "@/components/Nav";
+import { PrizeTracks } from "@/components/PrizeTracks";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
@@ -30,10 +32,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className="w-screen flex flex-col gap-16 items-center pb-96">
-        <div className="w-full flex justify-center bg-black text-white">
+      <main className="w-screen flex flex-col items-center">
+        <div className="w-full flex justify-center bg-black text-white bg-[url('/images/background.jpg')] bg-fixed">
           <div className="w-full max-w-screen-lg">
-            <div className="h-screen flex flex-col justify-center items-center gap-4 border-b">
+            <div className="h-screen flex flex-col justify-center items-center gap-4">
               <h1 className="text-6xl">
                 ACM
                 <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
@@ -56,8 +58,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Info />
-        <Criteria />
+        <img src="/images/waves.svg" />
+        <div className="w-full flex flex-col items-center gap-16">
+          <Info />
+          <Criteria />
+          <PrizeTracks />
+        </div>
+        <Footer />
       </main>
     </>
   );

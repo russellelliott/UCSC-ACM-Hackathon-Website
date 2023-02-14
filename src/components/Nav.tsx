@@ -16,7 +16,7 @@ export function Nav() {
         </Link>
 
         <div className="flex gap-4 ml-auto">
-          <button onClick={() => scrollTo("theme")}>Theme</button>
+          {/* <button onClick={() => scrollTo("theme")}>Theme</button> */}
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Tracks: [string, string, number, string][] = [
 
 export function Info() {
   return (
-    <div id="theme" className="w-full max-w-screen-lg">
+    <div id="theme" className="w-full max-w-screen-md">
       <div className="max-w-screen-md flex flex-col gap-4">
         <h2 className="text-4xl">Theme: Unity</h2>
         <p className="text-gray-500">
