@@ -32,7 +32,7 @@ function FooterSection(props: {
 export function Footer() {
   return (
     <div className="w-full flex justify-center my-16 p-4">
-      <div className="w-full max-w-screen-lg flex flex-col md:flex-row items-center md:items-start gap-8 pt-8 text-sm border-t dark:border-gray-700">
+      <div className="w-full max-w-screen-lg flex flex-col md:flex-row items-center md:items-start gap-8 pt-8 text-sm border-t">
         <a href="/">
           <img className="h-12 w-[68px]" src="/images/acm.png" alt="logo" />
         </a>
@@ -69,7 +69,7 @@ export function Footer() {
             All rights reserved.
           </p>
           <a
-            className="hover:text-gray-700 dark:hover:text-white"
+            className="hover:text-gray-700"
             href="https://github.com/russellelliott/UCSC-ACM-Hackathon-Website"
           >
             <Github />

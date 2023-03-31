@@ -59,10 +59,27 @@ export default function Home() {
           </div>
         </div>
         <img src="/images/waves.svg" />
-        <div className="w-full flex flex-col items-center gap-16">
+        <div className="w-full flex flex-col items-center gap-16 pb-16">
           <Info />
           <Criteria />
           <PrizeTracks />
+        </div>
+        <div id="sponsors" className="w-full max-w-screen-md">
+          <div className="max-w-screen-md flex flex-col gap-4">
+            <h2 className="text-4xl">Sponsors</h2>
+            <p className="text-gray-500">
+              We'd like to give a huge thanks to our sponsors for making this
+              year's hackathon possible!
+            </p>
+            <div className="flex flex-col items-center">
+              <a href="https://aops.com">
+                <img src="/images/sponsors/aops.jpeg" />
+              </a>
+              <a href="https://www.sashido.io/">
+                <img src="/images/sponsors/sashido.jpeg" />
+              </a>
+            </div>
+          </div>
         </div>
         <Footer />
       </main>
